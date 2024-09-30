@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="67d9c20e-7e44-4d04-a6a0-d11d0f074c6f" name="Changes" comment="PixelPalace" />
+    <list default="true" id="67d9c20e-7e44-4d04-a6a0-d11d0f074c6f" name="Changes" comment="feature">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +15,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "D44ntje"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/D44ntje/PixelPalace.git",
+    "accountId": "ba3b8458-077f-4494-92fc-cbe66a0865f3"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 4
 }]]></component>
@@ -56,7 +73,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1727703865981</updated>
-      <workItem from="1727703869264" duration="349000" />
+      <workItem from="1727703869264" duration="1062000" />
     </task>
     <task id="LOCAL-00001" summary="PixelPalace">
       <option name="closed" value="true" />
@@ -66,7 +83,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727704061297</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="feature">
+      <option name="closed" value="true" />
+      <created>1727704393340</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727704393340</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +99,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PixelPalace" />
-    <option name="LAST_COMMIT_MESSAGE" value="PixelPalace" />
+    <MESSAGE value="feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature" />
   </component>
 </project>
