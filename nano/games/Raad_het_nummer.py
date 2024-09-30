@@ -1,6 +1,6 @@
 import random
 import math
-import colored_text
+from nano import colored_text
 def start_game():
     print("Starting raad het nummer...")
     #vragen voor de grenzen van het spel
@@ -31,5 +31,5 @@ def start_game():
             print(colored_text.BRIGHT_RED + "Je gokte te hoog!" + colored_text.RESET)
 
     if not flag: # als het getal niet wordt geraden dan laat de computer zien welk getal het wel was
-        print("\n\tHet getal was" + colored_text.BRIGHT_BLUE + str(x) + colored_text.RESET)
+        print("\n\tHet getal was " + colored_text.BRIGHT_BLUE + str(x) + colored_text.RESET)
         print(colored_text.RED + "\tVolgende keer beter!" + colored_text.RESET)

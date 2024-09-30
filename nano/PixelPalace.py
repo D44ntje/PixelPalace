@@ -64,7 +64,7 @@ def speel_nog_iets(): # als deze functie wordt aangeroepen dan wordt de hele cod
             print("Ongeldige keuze. Probeer het opnieuw.")
             spelen_of_overig()
     spelen_of_overig()
-    play_again = input("\nWil je nog een ander spel spelen??\n" + "(Voer 'ja' of 'nee' in): ") # vragen aan de speler of hij nog iets wil spelen
+    play_again = input("\nWil je nog wat anders doen??\n" + "(Voer 'ja' of 'nee' in): ") # vragen aan de speler of hij nog iets wil spelen
     if play_again == "ja":
         print("Veel plezier bij je volgende game!\n")
         speel_nog_iets()
