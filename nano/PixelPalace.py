@@ -4,7 +4,7 @@ name = input("Wat is jouw naam? ") # vraagt speler om naam
 print('\n\t\t  ' + colored_text.BOLD + colored_text.BRIGHT_BLUE + name + colored_text.RESET + ", welkom in: ") # speler wordt welkom geheten
 
 print(colored_text.BRIGHT_BLUE + """  
-         ooooooooo.    o8o                        oooo  ooooooooo.             oooo                                
+         ooooooooo.   o8o                        ooooo  ooooooooo.            ooooo                                
         `888   `Y88.  `"'                        `888  `888   `Y88.           `888                                
          888   .d88' oooo  oooo    ooo  .ooooo.   888   888   .d88'  .oooo.    888   .oooo.    .ooooo.   .ooooo.  
          888ooo88P'  `888   `88b..8P'  d88' `88b  888   888ooo88P'  `P  )88b   888  `P  )88b  d88' `"Y8 d88' `88b 
@@ -14,14 +14,15 @@ print(colored_text.BRIGHT_BLUE + """
 """ + colored_text.RESET)
 def speel_nog_iets(): # als deze functie wordt aangeroepen dan wordt de hele code, behalve het welkom heten opnieuw uitgevoerd.
     def keuzemenu_overig():
-        gebruikerskeuze = str.lower(input("Wat wil je doen?\n1. Omrekenen\n2. Dobbelen (nog niet beschikbaar)\n'terug'\n"))
+        gebruikerskeuze = str.lower(input("Wat wil je doen?\n1. Omrekenen\n2. Dobbelen\n'terug'\n"))
         if gebruikerskeuze == '1' or gebruikerskeuze == 'omrekenen':
             print("\nJe hebt" + colored_text.BRIGHT_BLUE + "omrekenen" + colored_text.RESET + "gekozen, succes!")
-            from nano.omreken import omrekenen
+            from nano.Overige.omreken import omrekenen
             omrekenen.start_up()
         elif gebruikerskeuze == '2' or gebruikerskeuze == 'dobbelen':
-            print("\nJe hebt" + colored_text.BRIGHT_BLUE + " dobbelen " + colored_text.RESET + "gekozen.\nHelaas is dit nog niet beschikbaar")
-            keuzemenu_overig()
+            print("\nJe hebt" + colored_text.BRIGHT_BLUE + " dobbelen " + colored_text.RESET + "gekozen, succes!")
+            import Overige.Dobbelen
+            Overige.Dobbelen.start_up()
         elif gebruikerskeuze == 'terug':
             spelen_of_overig()
     def keuzemenu_spelen():

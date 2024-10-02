@@ -5,19 +5,19 @@ def start_up():
     def eenheidskeuze():
        # afstand
        if welke_soort_eenheden == "afstand" or welke_soort_eenheden == "1":
-           from nano.omreken import Afstand
+           from nano.Overige.omreken import Afstand
            Afstand.start_up()
        # gewicht
        elif welke_soort_eenheden == "gewicht" or welke_soort_eenheden == "2":
-           from nano.omreken import gewicht
+           from nano.Overige.omreken import gewicht
            gewicht.start_up()
        # temperatuur
        elif welke_soort_eenheden == "temperatuur" or welke_soort_eenheden == "3":
-           from nano.omreken import temperatuur
+           from nano.Overige.omreken import temperatuur
            temperatuur.start_up()
        # morsecode
        elif welke_soort_eenheden == "morsecode" or welke_soort_eenheden == "4":
-           from nano.omreken import morsecode
+           from nano.Overige.omreken import morsecode
            morsecode.start_up()
        # ongeldige invoer
        else:  # kiest een speler iets anders dan bovenstaande opties, dan zal hij opnieuw iets moeten invoeren
