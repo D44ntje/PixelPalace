@@ -28,4 +28,3 @@ def start_up():
         else:
             play_again()
     play_again()
-start_up()

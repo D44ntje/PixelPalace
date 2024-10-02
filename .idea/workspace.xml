@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67d9c20e-7e44-4d04-a6a0-d11d0f074c6f" name="Changes" comment="Dobbelstenen toegevoegd">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nano/Overige/Dobbelen.py" beforeDir="false" afterPath="$PROJECT_DIR$/nano/Overige/Dobbelen.py" afterDir="false" />
-    </list>
+    <list default="true" id="67d9c20e-7e44-4d04-a6a0-d11d0f074c6f" name="Changes" comment="PixelPalace" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -87,7 +84,7 @@
       <workItem from="1727703869264" duration="4997000" />
       <workItem from="1727771950321" duration="1060000" />
       <workItem from="1727788246637" duration="645000" />
-      <workItem from="1727851610386" duration="1047000" />
+      <workItem from="1727851610386" duration="1516000" />
     </task>
     <task id="LOCAL-00001" summary="PixelPalace">
       <option name="closed" value="true" />
@@ -145,21 +142,37 @@
       <option name="project" value="LOCAL" />
       <updated>1727852266272</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feature">
+      <option name="closed" value="true" />
+      <created>1727852907891</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727852907891</updated>
+    </task>
+    <task id="LOCAL-00009" summary="PixelPalace">
+      <option name="closed" value="true" />
+      <created>1727852953783</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1727852953783</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="PixelPalace" />
-    <MESSAGE value="feature" />
     <MESSAGE value="fixed" />
     <MESSAGE value="Dobbelstenen toegevoegd" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dobbelstenen toegevoegd" />
+    <MESSAGE value="feature" />
+    <MESSAGE value="PixelPalace" />
+    <option name="LAST_COMMIT_MESSAGE" value="PixelPalace" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PixelPalace$PixelPalace.coverage" NAME="PixelPalace Coverage Results" MODIFIED="1727852501500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano" />
-    <SUITE FILE_PATH="coverage/PixelPalace$Dobbelen.coverage" NAME="Dobbelen Coverage Results" MODIFIED="1727852415910" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano/Overige" />
+    <SUITE FILE_PATH="coverage/PixelPalace$Dobbelen.coverage" NAME="Dobbelen Coverage Results" MODIFIED="1727852842032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano/Overige" />
   </component>
 </project>
