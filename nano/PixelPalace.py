@@ -60,7 +60,7 @@ def speel_nog_iets(): # als deze functie wordt aangeroepen dan wordt de hele cod
         elif spelen_of_iets_anders == '2' or spelen_of_iets_anders == 'Iets anders':
             keuzemenu_overig()
         elif spelen_of_iets_anders == 'stop' or spelen_of_iets_anders == 'quit':
-            print()
+            print("")
         else:
             print("Ongeldige keuze. Probeer het opnieuw.")
             spelen_of_overig()
