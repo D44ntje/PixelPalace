@@ -14,7 +14,7 @@ print(colored_text.BRIGHT_BLUE + """
 """ + colored_text.RESET)
 def speel_nog_iets(): # als deze functie wordt aangeroepen dan wordt de hele code, behalve het welkom heten opnieuw uitgevoerd.
     def keuzemenu_overig():
-        gebruikerskeuze = str.lower(input("Wat wil je doen?\n1. Omrekenen\n2. Dobbelen\n'terug'\n"))
+        gebruikerskeuze = str.lower(input("Wat wil je doen?\n1. Omrekenen.\n2. Dobbelen.\n'terug'\n"))
         if gebruikerskeuze == '1' or gebruikerskeuze == 'omrekenen':
             print("\nJe hebt" + colored_text.BRIGHT_BLUE + " omrekenen, " + colored_text.RESET + "gekozen, succes!")
             from nano.Overige.omreken import omrekenen
@@ -27,7 +27,7 @@ def speel_nog_iets(): # als deze functie wordt aangeroepen dan wordt de hele cod
             spelen_of_overig()
     def keuzemenu_spelen():
         spelerskeuze = str.lower(input(
-            "Wat wil je spelen?\n" + "1. Hangman\n" + "2. Raad het nummer\n" + "3. Rock, Paper, Scissors\n" + "4. Word scramble\n")) # vraagt de speler welk spel hij wil spelen
+            "Wat wil je spelen?\n" + "1. Hangman.\n" + "2. Raad het nummer.\n" + "3. Rock, Paper, Scissors.\n" + "4. Word scramble.\n'terug'\n")) # vraagt de speler welk spel hij wil spelen
         if spelerskeuze == "1" or spelerskeuze == "hangman": # uitvoeren van optie 1
             print("\nJe hebt " + colored_text.BRIGHT_BLUE + "hangman" + colored_text.RESET + ", gekozen, succes!\n\n")
             from nano.games import Hangman
@@ -54,10 +54,10 @@ def speel_nog_iets(): # als deze functie wordt aangeroepen dan wordt de hele cod
             keuzemenu_spelen()
 
     def spelen_of_overig():
-        spelen_of_iets_anders = str.lower(input("Kies een optie:\n1. spelen\n2. Iets anders doen\n"))
+        spelen_of_iets_anders = str.lower(input("Kies een optie:\n1. spelen.\n2. Iets anders doen.\n"))
         if spelen_of_iets_anders == '1' or spelen_of_iets_anders == 'spelen':
             keuzemenu_spelen()
-        elif spelen_of_iets_anders == '2' or spelen_of_iets_anders == 'Iets anders':
+        elif spelen_of_iets_anders == '2' or spelen_of_iets_anders == 'iets anders':
             keuzemenu_overig()
         elif spelen_of_iets_anders == 'stop' or spelen_of_iets_anders == 'quit':
             print("")

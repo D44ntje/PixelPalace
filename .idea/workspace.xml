@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67d9c20e-7e44-4d04-a6a0-d11d0f074c6f" name="Changes" comment="PixelPalace" />
+    <list default="true" id="67d9c20e-7e44-4d04-a6a0-d11d0f074c6f" name="Changes" comment="PixelPalace">
+      <change beforePath="$PROJECT_DIR$/nano/PixelPalace.py" beforeDir="false" afterPath="$PROJECT_DIR$/nano/PixelPalace.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,6 +49,7 @@
     "Python.PixelPalace.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "C:/Users/dvdm1/PycharmProjects/PixelPalace",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -85,6 +88,7 @@
       <workItem from="1727771950321" duration="1060000" />
       <workItem from="1727788246637" duration="645000" />
       <workItem from="1727851610386" duration="1516000" />
+      <workItem from="1727964314808" duration="177000" />
     </task>
     <task id="LOCAL-00001" summary="PixelPalace">
       <option name="closed" value="true" />
