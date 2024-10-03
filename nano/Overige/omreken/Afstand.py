@@ -37,8 +37,8 @@ def start_up():
 
     # controleer of de eenheden geldig zijn
     if welke_eenheid_1 in eenheidsmogelijkheden and welke_eenheid_2 in eenheidsmogelijkheden:
-        try:
-            def omrekenen():
+        while True:
+            try:
                 #vragen om hoeveel er omgerekend moet worden
                 waarde = float(input(f"Hoeveel {eenheidsmogelijkheden[welke_eenheid_1]} wil je omrekenen?: "))
 
@@ -50,23 +50,9 @@ def start_up():
 
                 # print het resultaat
                 print(f"{waarde} {eenheidsmogelijkheden[welke_eenheid_1]} is gelijk aan {omgezette_waarde:.4f} {eenheidsmogelijkheden[welke_eenheid_2]}")
-
-            omrekenen()
-        except ValueError:
-            print("Ongeldige invoer. Voer een numerieke waarde in.")
-            omrekenen()
+                break
+            except ValueError:
+                print("Ongeldige invoer. Voer een numerieke waarde in.")
     else:
         print("Een of beide eenheden zijn niet beschikbaar in de lijst.")
         start_up()
-def main():
-    start_up()
-    while True:
-        nog_iets_anders = input("Wil je nog andere eenheden omrekenen?\n'ja' of 'nee'? ").lower()
-        if nog_iets_anders == 'ja':
-            start_up()
-        elif nog_iets_anders == 'nee':
-            print("Okee, tot ziens!")
-            break
-        else:
-            print("Ongeldige invoer. Typ 'ja' of 'nee'.")
-    main()

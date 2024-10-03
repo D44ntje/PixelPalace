@@ -16,11 +16,11 @@ def speel_nog_iets(): # als deze functie wordt aangeroepen dan wordt de hele cod
     def keuzemenu_overig():
         gebruikerskeuze = str.lower(input("Wat wil je doen?\n1. Omrekenen\n2. Dobbelen\n'terug'\n"))
         if gebruikerskeuze == '1' or gebruikerskeuze == 'omrekenen':
-            print("\nJe hebt" + colored_text.BRIGHT_BLUE + "omrekenen" + colored_text.RESET + "gekozen, succes!")
+            print("\nJe hebt" + colored_text.BRIGHT_BLUE + " omrekenen, " + colored_text.RESET + "gekozen, succes!")
             from nano.Overige.omreken import omrekenen
-            omrekenen.start_up()
+            omrekenen.start_omrekenen()
         elif gebruikerskeuze == '2' or gebruikerskeuze == 'dobbelen':
-            print("\nJe hebt" + colored_text.BRIGHT_BLUE + " dobbelen " + colored_text.RESET + "gekozen, succes!")
+            print("\nJe hebt" + colored_text.BRIGHT_BLUE + " dobbelen, " + colored_text.RESET + "gekozen, succes!")
             import Overige.Dobbelen
             Overige.Dobbelen.start_up()
         elif gebruikerskeuze == 'terug':
@@ -65,7 +65,7 @@ def speel_nog_iets(): # als deze functie wordt aangeroepen dan wordt de hele cod
             print("Ongeldige keuze. Probeer het opnieuw.")
             spelen_of_overig()
     spelen_of_overig()
-    play_again = input("\nWil je nog wat anders doen??\n" + "(Voer 'ja' of 'nee' in): ") # vragen aan de speler of hij nog iets wil spelen
+    play_again = input("\nWil je nog wat anders doen??\n" + "Voer 'ja' of 'nee' in: ") # vragen aan de speler of hij nog iets wil spelen
     if play_again == "ja":
         print("Veel plezier bij je volgende game!\n")
         speel_nog_iets()
