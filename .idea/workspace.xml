@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67d9c20e-7e44-4d04-a6a0-d11d0f074c6f" name="Changes" comment="PixelPalace">
+    <list default="true" id="67d9c20e-7e44-4d04-a6a0-d11d0f074c6f" name="Changes" comment="feature">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nano/games/steen_papier_schaar.py" beforeDir="false" afterPath="$PROJECT_DIR$/nano/games/steen_papier_schaar.py" afterDir="false" />
     </list>
@@ -93,7 +93,7 @@
       <workItem from="1727851610386" duration="1516000" />
       <workItem from="1727964314808" duration="177000" />
       <workItem from="1727964505817" duration="4360000" />
-      <workItem from="1728076897123" duration="1554000" />
+      <workItem from="1728076897123" duration="4440000" />
     </task>
     <task id="LOCAL-00001" summary="PixelPalace">
       <option name="closed" value="true" />
@@ -175,7 +175,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727964519500</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="feature">
+      <option name="closed" value="true" />
+      <created>1728201914451</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1728201914451</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -184,14 +192,14 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fixed" />
     <MESSAGE value="Dobbelstenen toegevoegd" />
-    <MESSAGE value="feature" />
     <MESSAGE value="PixelPalace" />
-    <option name="LAST_COMMIT_MESSAGE" value="PixelPalace" />
+    <MESSAGE value="feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="feature" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PixelPalace$PixelPalace.coverage" NAME="PixelPalace Coverage Results" MODIFIED="1728076901610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano" />
     <SUITE FILE_PATH="coverage/PixelPalace$Dobbelen.coverage" NAME="Dobbelen Coverage Results" MODIFIED="1727852842032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano/Overige" />
-    <SUITE FILE_PATH="coverage/PixelPalace$steen_papier_schaar.coverage" NAME="steen_papier_schaar Coverage Results" MODIFIED="1728200998249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano/games" />
-    <SUITE FILE_PATH="coverage/PixelPalace$quiz.coverage" NAME="quiz Coverage Results" MODIFIED="1727970282497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano/games" />
+    <SUITE FILE_PATH="coverage/PixelPalace$steen_papier_schaar.coverage" NAME="steen_papier_schaar Coverage Results" MODIFIED="1728201593429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano/games" />
+    <SUITE FILE_PATH="coverage/PixelPalace$quiz.coverage" NAME="quiz Coverage Results" MODIFIED="1728202225768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano/games" />
   </component>
 </project>

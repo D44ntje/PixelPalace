@@ -1,4 +1,6 @@
 from random import choice
+
+# kiest winnaar
 def kies_winnaar(spelers_keuze, computer_keuze):
     if spelers_keuze == computer_keuze:
         return "Gelijkspel!"
@@ -10,10 +12,12 @@ def kies_winnaar(spelers_keuze, computer_keuze):
         return "Je wint!"
     else:
         return "De computer wint!"
+
+# tellers voor aantal potjes, wins en verliezen
 wins = 0
 spellen_gespeeld = 0
 verloren = 0
-# De hoofdcode wordt direct uitgevoerd
+
 keuzes = ["steen", "papier", "schaar"]
 
 print("Welkom bij Steen, Papier, Schaar!")
