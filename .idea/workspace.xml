@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="67d9c20e-7e44-4d04-a6a0-d11d0f074c6f" name="Changes" comment="feature">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nano/PixelPalace.py" beforeDir="false" afterPath="$PROJECT_DIR$/nano/PixelPalace.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nano/games/Hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/nano/games/Hangman.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nano/games/steen_papier_schaar.py" beforeDir="false" afterPath="$PROJECT_DIR$/nano/games/steen_papier_schaar.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,6 +100,7 @@
       <workItem from="1728302755960" duration="51000" />
       <workItem from="1728303602394" duration="147000" />
       <workItem from="1728306668968" duration="1061000" />
+      <workItem from="1728383123821" duration="2177000" />
     </task>
     <task id="LOCAL-00001" summary="PixelPalace">
       <option name="closed" value="true" />
@@ -194,7 +198,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728219196781</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="feature">
+      <option name="closed" value="true" />
+      <created>1728383261751</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1728383261751</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,7 +220,7 @@
     <option name="LAST_COMMIT_MESSAGE" value="feature" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PixelPalace$PixelPalace.coverage" NAME="PixelPalace Coverage Results" MODIFIED="1728307791073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano" />
+    <SUITE FILE_PATH="coverage/PixelPalace$PixelPalace.coverage" NAME="PixelPalace Coverage Results" MODIFIED="1728384647878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano" />
     <SUITE FILE_PATH="coverage/PixelPalace$Dobbelen.coverage" NAME="Dobbelen Coverage Results" MODIFIED="1727852842032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano/Overige" />
     <SUITE FILE_PATH="coverage/PixelPalace$steen_papier_schaar.coverage" NAME="steen_papier_schaar Coverage Results" MODIFIED="1728201593429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano/games" />
     <SUITE FILE_PATH="coverage/PixelPalace$quiz.coverage" NAME="quiz Coverage Results" MODIFIED="1728202225768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano/games" />

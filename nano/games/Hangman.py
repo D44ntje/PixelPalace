@@ -1,10 +1,10 @@
 import random
-import colored_text
+from nano import colored_text
 def start_game():
     print("Starting Hangman...")
     # lijst met woorden
     words = ['appels', 'bomen', 'kantoor', 'laptop', 'fietsen', 'boeken', 'muziek', 'straten',
-     'vrienden', 'ziekenhuis', 'tafelen', 'parkeer', "auto's", 'station', 'dromen',
+     'vrienden', 'ziekenhuis', 'tafelen', 'parkeer', "auto", 'station', 'dromen',
      'reizen', 'snelweg', 'winkels', 'koffies', 'broodjes', 'zwembad', 'kastelen',
      'sprookje', 'versneld', 'luisteren', 'feesten', 'kaarten', 'verboden', 'cursussen',
      'schilder', 'raketjes', 'boekenkast', 'verhalen', 'speelgoed', 'avontuur',
@@ -166,7 +166,7 @@ def start_game():
     # vragen of de speler opnieuw wil spelen
     opnieuw = str.lower(input("Wil je nog een keer spelen?\n" + "'ja' of 'nee' "))
     if opnieuw == "ja":
-        import Hangman
+        from nano.games import Hangman
         Hangman.start_game()
     else:
         print("Fijn dat je Hangman hebt gespeeld!")

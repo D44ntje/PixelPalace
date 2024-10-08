@@ -1,6 +1,6 @@
 from random import choice
 
-def start_spel():
+def start_game():
     # kiest winnaar
     def kies_winnaar(spelers_keuze, computer_keuze):
         if spelers_keuze == computer_keuze:
