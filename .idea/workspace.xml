@@ -8,7 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nano/PixelPalace.py" beforeDir="false" afterPath="$PROJECT_DIR$/nano/PixelPalace.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/nano/games/Hangman.py" beforeDir="false" afterPath="$PROJECT_DIR$/nano/games/Hangman.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nano/games/steen_papier_schaar.py" beforeDir="false" afterPath="$PROJECT_DIR$/nano/games/steen_papier_schaar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nano/games/Raad_het_nummer.py" beforeDir="false" afterPath="$PROJECT_DIR$/nano/games/Raad_het_nummer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,29 +46,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Dobbelen.executor&quot;: &quot;Run&quot;,
-    &quot;Python.PixelPalace.executor&quot;: &quot;Run&quot;,
-    &quot;Python.quiz.executor&quot;: &quot;Run&quot;,
-    &quot;Python.steen_papier_schaar.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/dvdm1/PycharmProjects/PixelPalace&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Dobbelen.executor": "Run",
+    "Python.Hangman.executor": "Run",
+    "Python.PixelPalace.executor": "Run",
+    "Python.quiz.executor": "Run",
+    "Python.steen_papier_schaar.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/dvdm1/PycharmProjects/PixelPalace",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\dvdm1\PycharmProjects\PixelPalace" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dvdm1\PycharmProjects\PixelPalace\nano" />
       <recent name="C:\Users\dvdm1\PycharmProjects\PixelPalace\nano\Overige" />
       <recent name="C:\Users\dvdm1\PycharmProjects\PixelPalace\nano\games" />
     </key>
@@ -101,6 +103,7 @@
       <workItem from="1728303602394" duration="147000" />
       <workItem from="1728306668968" duration="1061000" />
       <workItem from="1728383123821" duration="2177000" />
+      <workItem from="1728456703019" duration="8866000" />
     </task>
     <task id="LOCAL-00001" summary="PixelPalace">
       <option name="closed" value="true" />
@@ -220,7 +223,8 @@
     <option name="LAST_COMMIT_MESSAGE" value="feature" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PixelPalace$PixelPalace.coverage" NAME="PixelPalace Coverage Results" MODIFIED="1728384647878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano" />
+    <SUITE FILE_PATH="coverage/PixelPalace$Hangman.coverage" NAME="Hangman Coverage Results" MODIFIED="1728462259455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano/games" />
+    <SUITE FILE_PATH="coverage/PixelPalace$PixelPalace.coverage" NAME="PixelPalace Coverage Results" MODIFIED="1728466985595" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano" />
     <SUITE FILE_PATH="coverage/PixelPalace$Dobbelen.coverage" NAME="Dobbelen Coverage Results" MODIFIED="1727852842032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano/Overige" />
     <SUITE FILE_PATH="coverage/PixelPalace$steen_papier_schaar.coverage" NAME="steen_papier_schaar Coverage Results" MODIFIED="1728201593429" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano/games" />
     <SUITE FILE_PATH="coverage/PixelPalace$quiz.coverage" NAME="quiz Coverage Results" MODIFIED="1728202225768" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/nano/games" />

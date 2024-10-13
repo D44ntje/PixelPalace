@@ -2,24 +2,42 @@ import random
 from nano import colored_text
 def start_game():
     print("Starting Hangman...")
-    # lijst met woorden
-    words = ['appels', 'bomen', 'kantoor', 'laptop', 'fietsen', 'boeken', 'muziek', 'straten',
-     'vrienden', 'ziekenhuis', 'tafelen', 'parkeer', "auto", 'station', 'dromen',
-     'reizen', 'snelweg', 'winkels', 'koffies', 'broodjes', 'zwembad', 'kastelen',
-     'sprookje', 'versneld', 'luisteren', 'feesten', 'kaarten', 'verboden', 'cursussen',
-     'schilder', 'raketjes', 'boekenkast', 'verhalen', 'speelgoed', 'avontuur',
-     'katoenen', 'woning', 'gedichten', 'schepen', "diploma's", 'puzzelen', 'websites',
-     'klokken', 'knutselen', 'problemen', 'sportief', 'bioscoop', 'modellen',
-     'tekenaar', 'culturen']
+    # lijsten met woorden
+    makkelijk = ['kat', 'boom', 'fiets', 'lamp', 'stoel', 'huis', 'plant', 'banaan', 'deur', 'vis', 'auto', 'boek', 'zon', 'pen', 'kop', 'bord', 'stoel', 'tent', 'regen', 'baan',
+                 'jas', 'rok', 'pot', 'tas', 'klok', 'weg', 'riet', 'hek', 'weg', 'bus', 'maan', 'zoet', 'koek', 'muur', 'bal', 'gat', 'klap', 'doos', 'boom', 'bol',
+                 'vis', 'kat', 'weg', 'bus', 'zon', 'schip', 'man', 'tak', 'paal']
+    gemiddeld = ['trein', 'dokter', 'lantaarn', 'student', 'telefoon', 'zolder', 'brievenbus', 'museum', 'toetsenbord', 'keuken', 'fabriek', 'vrachtwagen', 'uitnodiging', 'wandelpad',
+                 'huwelijk', 'spiegel', 'muziekstuk', 'kastanje', 'natuurkunde', 'toerisme', 'bibliotheek', 'hoofdstuk', 'december', 'instrument', 'medewerker', 'ontdekking',
+                 'reclamebord', 'administratie', 'parachute', 'dierenarts', 'kookboek', 'schoonmaker', 'verjaardag', 'computermuis', 'netwerk', 'kraanvogel',
+                 'televisie', 'klaslokaal', 'internationaal', 'knuffeldier', 'geheugen', 'verrekijker', 'formulering', 'koelkast', 'volleybal', 'afstandsbediening']
+    moeilijk = ['encyclopedie', 'geometrie', 'psychologie', 'parallellogram', 'interdisciplinair', 'circumferentie', 'schilderkunst', 'oxymoron', 'audiovisueel', 'reproductie',
+                'kwadratuur', 'hypothese', 'verantwoordelijkheid', 'transformatie', 'informatievoorziening', 'diplomatie', 'monochromatisch', 'democratisering',
+                'onverschilligheid', 'retrospectief', 'proportionaliteit', 'uitgebreidheid', 'extraterritoriaal', 'verzelfstandiging', 'verbeeldingskracht', 'individueel',
+                'synthese', 'associatief', 'morfologisch', 'intelligentie', 'verifieerbaarheid', 'onvergankelijkheid', 'abstractie', 'ethiek', 'beschouwing', 'filosofie',
+                'fotodynamica', 'organisch', 'analytisch', 'calculatie', 'sociologie', 'grammaticaal', 'sceptisch', 'schilderachtig', 'contextueel', 'introspectie']
+
+    # gebruiker kiest een niveau
+    while True:
+        niveau = input("Kies een niveau: 'makkelijk', 'gemiddeld', of 'moeilijk': ").lower()
+        if niveau == 'makkelijk':
+            woordenlijst = makkelijk
+            break
+        elif niveau == 'gemiddeld':
+            woordenlijst = gemiddeld
+            break
+        elif niveau == 'moeilijk':
+            woordenlijst = moeilijk
+            break
+        else:
+            print("Ongeldige keuze.\nControleer of je geen spelfouten hebt gemaakt.")
 
     guessed_letters = []
 
-    selected_item = random.choice(words) # de computer kiest een woord
+    selected_item = random.choice(woordenlijst) # de computer kiest een woord
     total_chances = 6 # aantal kansen staat op 6, want [0, 1, 2, 3, 4, 5, 6] = 7 pogingen
 
 
-    def clear_console(): # zorgt ervoor dat de speler alleen de stage ziet waarin hij nu zich bevindt
-        print("\n" * 10000)
+    
 
     def check_win(): # checkt of de speler al heeft gewonnen
         for i in range(len(selected_item)): # dat doet hij door te kijken of elke letter van selected_item al in guessed_letters zit
@@ -119,12 +137,12 @@ def start_game():
 
         if len(letter) == 1 and letter.isalpha():
             if letter in guessed_letters: # dit is voor als de ingevoerde letter al is geraden
-                clear_console()
+                print("\n" * 10000)
                 print('Die letter had je al geraden...')
             else:
                 guessed_letters.append(letter)
                 if letter in selected_item: # dit laat de speler weten of hij het goed heeft
-                    clear_console()
+                    print("\n" * 10000)
                     print(colored_text.BRIGHT_BLUE + 'Juist! ' + colored_text.RESET + 'Die zit in het woord.')
                     display_hangman(total_chances)
                     render_word()
@@ -133,7 +151,7 @@ def start_game():
                         print(f'Het woord was: {selected_item}')
                         break
                 else: # als de speler het fout heeft zal er een leven van af gaan
-                    clear_console()
+                    print("\n" * 10000)
                     print(colored_text.BRIGHT_RED + 'Onjuist. ' + colored_text.RESET + 'Die zat er niet in...')
                     total_chances -= 1
                     display_hangman(total_chances)
@@ -145,7 +163,7 @@ def start_game():
                 print('Je hebt het woord geraden!')
                 break
             else:
-                clear_console()
+                print("\n" * 10000)
                 print('Onjuiste gok.')
                 total_chances -= 1
                 display_hangman(total_chances)
