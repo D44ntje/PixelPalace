@@ -179,7 +179,7 @@ def start_game():
 
         # dit laat zien hoeveel levens de speler nog heeft
         print(f'Je hebt nog {total_chances} levens over.')
-        print(f"Deze letters heb je al geraden: {guessed_letters}\n")
+        print(f"Deze letters heb je al geraden: {guessed_letters.sort()}\n")
 
     # vragen of de speler opnieuw wil spelen
     opnieuw = str.lower(input("Wil je nog een keer spelen?\n" + "'ja' of 'nee' "))

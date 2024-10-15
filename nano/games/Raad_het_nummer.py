@@ -12,7 +12,6 @@ def start_game():
     count = 0 # dit houdt bij hoeveel rondes er al gespeeld zijn
     flag = False
     while count < total_chances:
-        print("\n" * 1000)
         print(f"\n\t{colored_text.BLACK}{colored_text.BACKGROUND_BRIGHT_BLUE}Je hebt, {total_chances}, kansen om het getal te raden!{colored_text.RESET}")
         count += 1
         guess = int(input("\nKies een getal: ")) # vraagt de speler om een getal te kiezen
@@ -24,9 +23,12 @@ def start_game():
             flag = True
             break
         elif lower < guess < x:
+            print("\n" * 1000)
             print(f"{colored_text.BRIGHT_RED}Je gokte te laag!{colored_text.RESET}")
         elif upper > guess > x:
+            print("\n" * 1000)
             print(f"{colored_text.BRIGHT_RED}Je gokte te hoog!{colored_text.RESET}")
     if not flag: # als het getal niet wordt geraden dan laat de computer zien welk getal het wel was
+        print("\n" * 1000)
         print(f"\n\tHet getal was {colored_text.BRIGHT_BLUE}{x}{colored_text.RESET}")
         print(f"{colored_text.RED}\tVolgende keer beter!{colored_text.RESET}")
